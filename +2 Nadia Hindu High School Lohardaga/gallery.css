@@ -1,0 +1,32 @@
+.gallery{
+    width: 80%;
+    margin: auto;
+}
+
+.gallery-col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.gallery-col img{
+    flex-basis: 32%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* @@@@@@@@@@@@@@@@ Media query for gallery @@@@@@@@@@@@@@@ */
+
+@media (max-width: 700px){
+    .gallery-col{
+        flex-direction: column;
+    }
+
+    .gallery-col img{
+        width: 100%;
+        padding: 10px 0;
+    }
+}

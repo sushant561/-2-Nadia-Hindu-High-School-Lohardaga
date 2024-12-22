@@ -1,0 +1,67 @@
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    font-size: 36px;
+    font-weight: 600px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col h1{
+    font-size: 36px;
+    font-weight: 600px;
+    padding-top: 0;
+}
+
+.about-col p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 15px 0 25px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.red-btn{
+    border: 1px solid #00cf00;
+    background: transparent;
+    color: #00cf00;
+}
+
+.red-btn:hover{
+    color: #fff;
+}
+
+/* @@@@@@@@@@@@@@@@@@ Media query for About content section @@@@@@@@@@@@@@@@@ */
+
+@media (max-width: 700px){
+    .about-col h1{
+        font-size: 26px;
+    }
+       
+}
